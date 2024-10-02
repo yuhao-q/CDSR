@@ -25,7 +25,7 @@ We include the following dataset configurations in this repo:
 
 
 ```
-python datasets/cvt_coco_object.py PATH_TO_COCO_STUFF164K -o PATH_TO_COCO164K
+Come soon!
 ```
 
 ## Quick Inference
@@ -46,10 +46,6 @@ Single-GPU:
 python eval.py --config ./config/cfg_DATASET.py --workdir YOUR_WORK_DIR
 ```
 
-Multi-GPU:
-```
-bash ./dist_test.sh ./config/cfg_DATASET.py
-```
 
 
 ## Citation
