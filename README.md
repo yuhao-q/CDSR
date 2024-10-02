@@ -12,10 +12,8 @@
 ```
 git clone https://github.com/yuhao-q/CDSR.git
 cd CDSR
-
 conda create -n CDSR python=3.10 -y
 conda activate CDSR
-
 pip install -r requirements.txt
 ```
 
@@ -26,8 +24,7 @@ We include the following dataset configurations in this repo:
 2) `Without background class`: VOC20, Context59, MaSTr1325, and COCO-Object.
 
 For PASCAL Context 459 and ADE847, please follow the [CAT-Seg](https://github.com/KU-CVLAB/CAT-Seg/tree/main/datasets) to prepare the datasets.
-For the other datasets, please follow the [MMSeg data preparation document](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/user_guides/2_dataset_prepare.md) to download and pre-process the datasets. 
-The COCO-Object dataset can be converted from COCO-Stuff164k by executing the following command:
+
 
 ```
 python datasets/cvt_coco_object.py PATH_TO_COCO_STUFF164K -o PATH_TO_COCO164K
@@ -70,7 +67,7 @@ Come soon!
 ## Acknowledgement
 
 
-This implementation is based on [OpenCLIP](https://github.com/mlfoundations/open_clip) and [ProxyCLIP](https://github.com/mc-lan/ProxyCLIP). Thanks for the awesome work.
+This implementation is based on [OpenCLIP](https://github.com/mlfoundations/open_clip). Thanks for the awesome work.
 
 ## Contact
 
