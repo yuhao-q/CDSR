@@ -23,8 +23,6 @@ We include the following dataset configurations in this repo:
 
 2) `Without background class`: VOC20, Context59, MaSTr1325, and COCO-Object.
 
-For PASCAL Context 459 and ADE847, please follow the [CAT-Seg](https://github.com/KU-CVLAB/CAT-Seg/tree/main/datasets) to prepare the datasets.
-
 
 ```
 python datasets/cvt_coco_object.py PATH_TO_COCO_STUFF164K -o PATH_TO_COCO164K
